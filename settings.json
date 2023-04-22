@@ -1,0 +1,9 @@
+{
+    "amount": 1000,
+    "greater": 0,
+    "less": 1,
+    "stablecoin": "BUSD",
+    "coinMarketCup_rank": 50,
+    "rounds": 1,
+    "timer": 0.1
+}
