@@ -12,7 +12,7 @@ def coinMarketCup():
     url = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest'
     parameters = {
         'start': '1',
-        'limit': str(depth),  # should be string type
+        'limit': str(depth),  # should be a string type
     }
     headers = {
         'Accepts': 'application/json',
