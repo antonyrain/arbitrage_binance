@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-from credentials import binance_api_key, binance_api_secret
+from api_keys import binance_api_key, binance_api_secret
 from binance.spot import Spot as SpotClient
-from functions import getAvgPrice, coinMarketCup
-from set import amount, greater, less, stbCoin, rounds, timer
+from service import getAvgPrice, coinMarketCup
+from config import amount, greater, less, stbCoin, rounds, timer
 from termcolor import colored
 import time
 

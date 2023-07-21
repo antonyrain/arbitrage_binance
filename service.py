@@ -1,7 +1,7 @@
 from requests import Session
-from credentials import binance_api_key, binance_api_secret, coinMarketCup_api_key
+from api_keys import binance_api_key, binance_api_secret, coinMarketCup_api_key
 from binance.spot import Spot as SpotClient
-from set import depth
+from config import depth
 import json
 
 
